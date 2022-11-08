@@ -1,0 +1,16 @@
+enabled: true
+id: "hero"
+
+content:
+  title: "**Operating OpenShift** An SRE Approach to Managing Infrstructure"
+  text: "by Rick Rackow & Manuel Dewald"
+  image: "images/cover.png"
+
+  buttonPrimary:
+    label: "View on O'Reilly"
+    url: "https://www.oreilly.com/library/view/operating-openshift/9781098106386/"
+
+  buttonSecondary:
+    label: "Get it on Amazon.com"
+    url: "https://www.amazon.com/Operating-OpenShift-Approach-Managing-Infrastructure/dp/1098106393"
+

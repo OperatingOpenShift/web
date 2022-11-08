@@ -1,0 +1,12 @@
+enabled: true
+id: "reviews"
+
+content:
+  title: "Reviews"
+
+  list:
+    - text: "The book highlights the best practices of running and operating high performance Openshift clusters based on the author's real world SRE experience.
+I personally found the book very useful and I would recommend it to anyone working with Openshift."
+      client: "Adrian Joian (Senior Infrastructure Engineer - FastTrack for Azure)"
+    - text: "This book is quintessential for any organization that aspires to manage fleets of OpenShift clusters at scale. I cannot see better people to write about operating OpenShift than Manuel and Rick who have been key in the success of our managed OpenShift offering."
+      client: "Christophe Attias (Senior Manager, Red Hat)"

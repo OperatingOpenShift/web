@@ -1,0 +1,9 @@
+enabled: true
+id: "cta"
+
+content:
+  title: "Get your Copy now!"
+  image: "images/cover-3d.png"
+  button:
+    label: "Buy on Amazon.com"
+    url: "https://www.amazon.com/Operating-OpenShift-Approach-Managing-Infrastructure/dp/1098106393"
