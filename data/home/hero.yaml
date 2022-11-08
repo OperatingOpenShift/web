@@ -2,7 +2,8 @@ enabled: true
 id: "hero"
 
 content:
-  title: "**Operating OpenShift** An SRE Approach to Managing Infrstructure"
+  title: "**Operating OpenShift**"
+  subtitle: "An SRE Approach to Managing Infrstructure"
   text: "by Rick Rackow & Manuel Dewald"
   image: "images/cover.png"
 
