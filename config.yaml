@@ -38,6 +38,10 @@ menus:
       url: "/#manuel"
       weight: 3
 
+    - name: "Reviews"
+      url: "/#reviews"
+      weight: 4
+
    # - name: "Book resources"
    #   url: "/resources"
    #   weight: 4
