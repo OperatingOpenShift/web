@@ -1,0 +1,62 @@
+baseURL: "https://www.example.com/"
+theme: "up-business-theme"
+languageCode: "en-us"
+
+title: "Operating OpenShift"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "Operating OpenShift"
+  description: "An SRE Approach to Managing Infrastructure"
+  images: 
+    - "images/cover.jpg"
+
+  logo: "arrow-up.png"
+
+  favicons:
+    themeColor: "#DA2F20"
+    backgroundColor: "#FDFDFD"
+    faviconColor: "#000000"
+
+
+  copyright: "© 2022 Rick Rackow & Manuel Dewald"
+
+menus:
+  main:
+    - name: "About the Book"
+      url: "/#book"
+      weight: 1
+
+    - name: "Rick Rackow"
+      url: "/#rick"
+      weight: 2
+
+    - name: "Manuel Dewald"
+      url: "/#manuel"
+      weight: 3
+
+   # - name: "Book resources"
+   #   url: "/resources"
+   #   weight: 4
+
+  buttons:
+    - name: "Get it on Amazon.com"
+      url: "https://www.amazon.com/Operating-OpenShift-Approach-Managing-Infrastructure/dp/1098106393"
+      weight: 5
+      pre: "btn btn-primary text-light"
+
+  footer:
+
+    - name: "Book on Amazon.com"
+      url: "https://www.amazon.com/Operating-OpenShift-Approach-Managing-Infrastructure/dp/1098106393"
+      weight: 1
+    - name: "View on O'Reilly"
+      url: "https://www.oreilly.com/library/view/operating-openshift/9781098106386/"
+      weight: 2
+
+taxonomies:
+  series: "series"
+  tags: "tags"

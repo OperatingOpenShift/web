@@ -1,0 +1,24 @@
+enabled: true
+id: "book"
+
+content:
+  - image: "images/cover-composite.png"
+    pretitle: ""
+    title: "About The Book"
+    id: book
+    text: |-
+      Kubernetes has gained significant popularity over the past few years, with OpenShift as one of its most mature and prominent distributions. But while OpenShift provides several layers of abstraction over vanilla Kubernetes, this software can quickly become overwhelming because of its rich feature set and functionality. This practical book helps you understand and manage OpenShift clusters from minimal deployment to large multicluster installations.
+
+  - image: "images/rick.png"
+    pretitle: "About the Author"
+    title: "Rick Rackow"
+    id: rick
+    text: |-
+      Rick is a seasoned professional who has worked on cloud and container adoption throughout his career. As Site Reliability Engineer on Red Hat's OpenShift Dedicated team, Rick manages and maintains countless OpenShift clusters at scale and ensures their reliability every day by developing and following the best practices the reader will learn in this book.
+
+  - image: "images/manuel.png"
+    pretitle: "About the Author"
+    title: "Manuel Dewald"
+    id: manuel
+    text: |-
+      Manuel has been a software engineer on a variety of software projects from big enterprise software to distributed open source software composed of independent components. He's now working as Site Reliability Engineer at Red Hat, maintaining and automating the lifecycle of OpenShift clusters.
