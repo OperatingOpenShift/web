@@ -18,15 +18,17 @@
     </div>
     <div class="pb-4">{{ partial "utilities/image-third.html" "images/testimonials-left-quote.png" }}</div>
     <div class="row">
-      {{ range $i, $e := .content.list }}
-      <div class="col-12 col-xl-7 d-flex flex-column justify-content-center" style="max-width:50%">
-        <div class="card d-flex flex-row align-items-start border-0 shadow p-5" style="max-width:100%">
-          <div class="bg-green rounded-circle size-64 me-4" style="max-width:100%;"></div>
-          <p class="card-text text-black-61">"{{ .text }}" <span class="fw-bold text-primary">- {{ .client
-              }}</span></p>
+      <div class="" style="display:flex;flex-direction:row;justify-content: space-evenly;flex-wrap: wrap;">
+        {{ range $i, $e := .content.list }}
+        <div class="" style="max-width:400px;">
+          <div class="card d-flex flex-row align-items-start border-0 shadow p-5" style="max-width:100%">
+            <div class="bg-green rounded-circle size-64 me-4" style="max-width:100%;"></div>
+            <p class="card-text text-black-61">"{{ .text }}" <span class="fw-bold text-primary">- {{ .client
+                }}</span></p>
+          </div>
         </div>
+        {{ end }}
       </div>
-      {{ end }}
     </div>
     <div class="pt-4 text-end">{{ partial "utilities/image-third.html" "images/testimonials-right-quote.png" }}
     </div>
